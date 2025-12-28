@@ -1,0 +1,23 @@
+# creating a tuple
+brothers=('Rick','Harry','Baljindar','Augustus')
+sister=('Marry','Raechel','Jasmine','Grasper')
+
+Siblings = brothers + sister
+print(Siblings)
+
+#count number of siblings
+print(len(Siblings))
+#modifying tuple
+#can be done converting a tuple to list and then list modification
+
+family = list(Siblings)
+family.append('John')
+family.append('Alice')
+Siblings= brothers + sister
+print(family)
+#Count Numbers of Sibling
+print(f"I have {len(Siblings)} siblings")
+
+#Count Numbers of Sibling without f
+print("I have {len(Siblings)} siblings")
+
